@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class BusinessServiceTest {
+public class BusinessServiceStubTest {
 
 	@Test
 	public void testfindMax() {
@@ -12,7 +12,6 @@ public class BusinessServiceTest {
 		int result = businessService.findMax();
 		assertEquals(67, result);
 	}
-
 }
 
 
